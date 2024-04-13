@@ -620,3 +620,91 @@ footer{
         opacity: 0;
     }
 }
+
+@media (max-width:900px) and (min-width:600px){
+    .nav-part2 ul li a {
+        font-size: 1.8vw;
+    }
+}
+@media (max-width:600px) and (min-width:400px){
+    .nav-part2 ul li {
+        padding: 0.7vw 2vw;
+    }
+    .nav-part2 ul li a {
+        font-size: 2.2vw;
+    }
+}
+@media (max-width:600px){
+    .about-sundown {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding-top: 8vw;
+        height: 65vh;
+    }
+    .about-sundown .left {
+        width: 50%;
+        font-size: 2.6vw;
+        line-height: 1.3em;
+    }
+    .about-sundown .right {
+        width: 100%;
+        padding-right: 2vw;
+    }
+    .about-sundown .right h1 {
+        letter-spacing: -4px;
+    }
+    .about-us {
+        padding-top: 5vw;
+        min-height: 45vh;
+    }
+    .about-us {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about-us h1 {
+        width: 100%;
+        font-size: 6vw;
+        padding-bottom: 25px;
+    }
+    .img-text {
+        width: 60%;
+        z-index: 99;}
+
+    .img-text p {
+        font-size: 2.9vw;
+    }
+    .gooey {
+        width: 70vw;
+        height: 60vw;
+        left: 20%;
+        top: 25%;
+}
+    .diff-elements h3 {
+    font-size: 3.2vw;
+}
+    .gola2 {
+    width: 1.5vw;
+    height: 1.5vw;
+    margin: 0.5vw 0vw;
+}
+    .home-page3 {
+    min-height: 40vh;
+}
+    .homepage-4 {
+    width: 100%;
+    min-height: 60vh;
+}
+}
+@media (max-width:600px) and (min-width:450px){
+    .hero {
+        top: 70vw;
+    }
+}
+@media (max-width:450px){
+    .about-sundown {
+        height: 45vh;
+    }
+    .hero {
+        top: 90vw;
+    }
+}
